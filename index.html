@@ -23,7 +23,9 @@
     </div>
     <div class="right">
         <div class="video">
-            <video onloadstart="this.volume=0.05" src="/img/bgVideo.mp4" autoplay loop id="video";></video>
+            <video onloadstart="this.volume=0.05" autoplay muted loop id="video">
+                <source src="/img/bgVideo.mp4" type="video/mp4">
+            </video>
         </div>
     </div>
 </body>
