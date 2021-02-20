@@ -1,0 +1,71 @@
+.body {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    width: 20%;
+    background-color: rgb(104,173,33);
+    display: flex;
+    justify-content: center;
+}
+
+.leftcontainer {
+    width: 80%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+#logo {
+    width: 50%;
+    height: auto;
+}
+
+p {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+.buttoncontainer {
+    background-color: yellowgreen;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.discord {
+    border-radius: 10px;
+}
+.right {
+    width: 80%;
+    background-color: #0c110b;
+    display: flex;
+    padding: 20px;
+}
+
+.video {
+    border-radius: 10px;
+    width: 100%;
+}
+
+#video {
+    border-radius: 10px;
+    width: 100%;
+}
