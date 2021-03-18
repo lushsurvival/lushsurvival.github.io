@@ -69,3 +69,11 @@ h1 {
     border-radius: 10px;
     width: 100%;
 }
+
+a {
+    text-decoration: none;
+}
+
+.voteitem {
+    text-align: left;
+}
