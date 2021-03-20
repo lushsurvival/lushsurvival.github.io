@@ -97,6 +97,7 @@ h1 {
     background-color: #05040c;
     display: flex;
     padding: 20px;
+    flex-direction: column;
 }
 
 .video {
@@ -137,7 +138,34 @@ a {
     transition-property: all;
     transition-duration: 300ms;
 }
+.extracontainer {
+    padding-top: 10px;
+    display: flex;
+}
+.extraitem {
+    width: 20%;
+    margin: 0px 5px 0px 5px;
+}
 
+#nomargin {
+    margin: 0px 5px 0px 0px;
+}
+.extralink p{
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #68ad1f;
+    font-weight: 600;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.extraitem p:hover{
+    background-color: #68ad1f;
+    transition-property: all;
+    transition-duration: 300ms;
+}
 @media screen and (max-width: 1280px) {
     .body {
         display: flex;
