@@ -46,7 +46,7 @@ h1 {
 h2 {
     font-family: 'Titillium Web', sans-serif;
     color: rgba(255, 255, 255, 0.781);
-    font-size: .95vw;
+    font-size: 2em;
     font-weight: 500;
 }
 
@@ -156,6 +156,9 @@ a {
 #nomargin {
     margin: 0px 5px 0px 0px;
 }
+#silent {
+    background-color: rgba(255, 255, 255, .05)!important;
+}
 .extralink p{
     text-decoration: none;
     padding-top: 15px;
@@ -168,7 +171,7 @@ a {
     border-radius: 5px;
 }
 .extraitem p:hover{
-    background-color: #68ad1f;
+    background-color: #316b29;
     transition-property: all;
     transition-duration: 300ms;
 }
