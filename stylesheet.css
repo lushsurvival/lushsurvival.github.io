@@ -2,12 +2,12 @@
     padding: 0px;
     margin: 0px;
     display: flex;
-    height: 100vh;
     background-color: #05040c;
 }
 
 .left {
     width: 20%;
+    height: auto;
     background-color: rgba(255, 255, 255, .05);
     display: flex;
     justify-content: center;
@@ -42,6 +42,12 @@ h1 {
     color: white;
     font-size: 1.25vw;
     font-weight: 300;
+}
+h2 {
+    font-family: 'Titillium Web', sans-serif;
+    color: rgba(255, 255, 255, 0.781);
+    font-size: .95vw;
+    font-weight: 500;
 }
 
 #ip {
@@ -165,6 +171,51 @@ a {
     background-color: #68ad1f;
     transition-property: all;
     transition-duration: 300ms;
+}
+
+.reviewcontainer{
+
+}
+.reviewgrid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    align-items: stretch;
+}
+.reviewbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, .05);
+    padding: 30px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+
+}
+#username {
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+#date {
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+#review {
+    text-align: left;
+    padding: 0px;
+    margin-top: 15px;
+    color: white;
+    font-size: 24px;
+}
+#star {
+    width: 16px;
+    height: 16px;
+    color: #68ad1f;
+    box-shadow: #68ad1f;
 }
 @media screen and (max-width: 1280px) {
     .body {
