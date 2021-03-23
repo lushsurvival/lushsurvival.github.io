@@ -45,262 +45,232 @@
 <title>The Best Minecraft Survival Server</title>
 </head>
 <body class="body">
-    <div class="left">
-        <div class="leftcontainer">
+    <div class="navbar">
+        <div class="navbarcontainer">
             <div class="logo">
                 <img src="/img/logo.png" id="logo" alt="Lush Survival Logo with lush trees and bushes">
             </div>
-            <div class="introtext">
-                <p>Lush survival is a free and popular multiplayer Minecraft survival server that is built using great design. Play with or make new friends.</p>
+            <div class="navlist">
+                <a href="#home" class="listitem"><p>Home</p></a>
+                <a href="#preview" class="listitem"><p>Preview</p></a>
+                <a href="#features" class="listitem"><p>Features</p></a>
+                <a href="#vote" class="listitem"><p>Vote Sites</p></a>
+                <a href="#reviews" class="listitem"><p>Reviews</p></a>
+                <a href="https://discord.gg/cJ72CPpBSk" target="_blank" class="listitem" id="secondary"><p>Discord</p></a>
+                <a href="https://store.lushsurvival.net/" target="_blank" class="listitem" id="primary"><p>Store</p></a>
+                <a><p class="listitem" id="ipnav">play.lushsurvival.net</p></a>
             </div>
-            <p id="joinnow">Join Now!</p>
-            <p id="versions">Minecraft Java Versions 1.9 - 1.16</p>
-            <div class="buttoncontainer">
-                <a href="copied.html" onclick="CopyToClipboard('ip');return true;" id="copylinktool"><h1 id="ip">play.lushsurvival.net</h1><span><p id="copyalert">Copy IP!</p></span></a>
+        </div>
+    </div>
+    <div class="headersection">
+        <div class="container" id="col-2">
+            <div class="lefthalf">
+                <div class="introtext">
+                    <h1 class="title" id="home">The Best Minecraft Survival Server</h1>
+                    <p>Lush survival is a free and popular multiplayer Minecraft survival server that is built using great design. Play with or make new friends.</p>
+                </div>
+                <p id="joinnow">Join Now!</p>
+                <p id="versions">Minecraft Java Versions 1.9 - 1.16</p>
+                <div class="buttoncontainer">
+                    <a href="copied.html" onclick="CopyToClipboard('ip');return true;" id="copylinktool"><h1 id="ip">play.lushsurvival.net</h1><span><p id="copyalert">Copy IP!</p></span></a>
+                </div>
             </div>
-            <div class="discord">
-                <iframe src="https://discord.com/widget?id=801958117402214421&theme=dark" title="Discord Widget" width="100%" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            <div class="righthalf">
+                <div class="video">
+                    <video onloadstart="this.volume=0.1" autoplay muted loop id="video">
+                        <source src="/img/bgVideo.mp4" type="video/mp4">
+                    </video>
+                </div>
             </div>
+        </div>
+     </div>
+     <div class="previewsection" id="preview">
+         <div class="container">
+             <h2>PREVIEW</h2>
+             <div class="gallery">
+                 <img class="galleryitem" src="img/preview1.png">
+                 <span></span>
+                 <img class="galleryitem" src="img/preview2.png">
+                 <span></span>
+                 <img class="galleryitem" src="img/preview3.png">
+             </div>
+         </div>
+     </div>
+     <div class="featuresection" id="features">
+         <div class="container">
+            <h2>FEATURES</h2>
+            <div class="featuregrid">
+                <div class="featureitem">
+                    <div class="featureleft">
+                        <img src="img/SVG/Asset 9.svg" class="featureicon">
+                    </div>
+                    <div class="featureright">
+                        <h3>Land Claim</h3>
+                        <p>Everything that you claim is 100% protected from greifing and stealing!</p>
+                    </div>
+                </div>
+                <span></span>
+                <div class="featureitem">
+                    <div class="featureleft">
+                        <img src="img/SVG/Asset 6.svg" class="featureicon">
+                    </div>
+                    <div class="featureright">
+                        <h3>Trees Fall</h3>
+                        <p>Trees have real world physics and fall when chopped down.</p>
+                    </div>
+                </div>
+                <span></span>
+                <div class="featureitem">
+                    <div class="featureleft">
+                        <img src="img/SVG/Asset 5.svg" class="featureicon">
+                    </div>
+                    <div class="featureright">
+                        <h3>Player Shops</h3>
+                        <p>Create and design your own shop and sell any item you want.</p>
+                    </div>
+                </div>
+                <div class="featureitem">
+                    <div class="featureleft">
+                        <img src="img/SVG/Asset 8.svg" class="featureicon">
+                    </div>
+                    <div class="featureright">
+                        <h3>Diamond Economy</h3>
+                        <p>This economy is strictly based on diamonds. There is no server shop to prevent inflation.</p>
+                    </div>
+                </div>
+                <span></span>
+                <div class="featureitem">
+                    <div class="featureleft">
+                        <img src="img/SVG/Asset 7.svg" class="featureicon">
+                    </div>
+                    <div class="featureright">
+                        <h3>Fly in Claims</h3>
+                        <p>You can fly arround in your own claims if you want to play that way!</p>
+                    </div>
+                </div>
+                <span></span>
+                <div class="featureitem">
+                    <div class="featureleft">
+                        <img src="img/SVG/Asset 2.svg" class="featureicon">
+                    </div>
+                    <div class="featureright">
+                        <h3>Toggle PVP</h3>
+                        <p>Don't like to fight? No problem! Toggle your pvp status anytime.</p>
+                    </div>
+                </div>
+                <div class="featureitem">
+                    <div class="featureleft">
+                        <img src="img/SVG/Asset 1.svg" class="featureicon">
+                    </div>
+                    <div class="featureright">
+                        <h3>Not Pay To Win</h3>
+                        <p>We want to provide everyone the same great experience regardless of your donatations.</p>
+                    </div>
+                </div>
+                <span></span>
+                <div class="featureitem">
+                    <div class="featureleft">
+                        <img src="img/SVG/Asset 3.svg" class="featureicon">
+                    </div>
+                    <div class="featureright">
+                        <h3>Auction House</h3>
+                        <p>Quickly sell and view items on the Auction House.</p>
+                    </div>
+                </div>
+                <span></span>
+                <div class="featureitem">
+                    <div class="featureleft">
+                        <img src="img/SVG/Asset 4.svg" class="featureicon">
+                    </div>
+                    <div class="featureright">
+                        <h3>Chest & Inventory Sorting</h3>
+                        <p>Sort your chests and inventories easily with one click. No more cluttered chests!</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+     </div>
+     <div class="votesection" id="vote">
+        <div class="container">
+            <h2>VOTE SITES</h2>
             <div class="votesites">
-                <div class="voteitem"><a href="https://minecraft.buzz/server/1087&tab=vote" class="votelink"><p>Vote Site 1</p></a></div>
-                <div class="voteitem"><a href="https://minecraft-server.net/vote/lushsurvival/" class="votelink"><p>Vote Site 2</p></a></div>
-                <div class="voteitem"><a href="https://www.planetminecraft.com/server/lush-survival/" class="votelink"><p>Vote Site 3</p></a></div>
-                <div class="voteitem"><a href="https://minecraft-server-list.com/server/472648/vote/" class="votelink"><p>Vote Site 4</p></a></div>
-                <div class="voteitem"><a href="https://best-minecraft-servers.co/server-lush-survival.147/vote" class="votelink"><p>Vote Site 5</p></a></div>
+                <div class="voteitem"><a href="https://minecraft.buzz/server/1087&tab=vote" class="votelink" target="_blank"><p>Vote Site 1</p></a></div>
+                <span></span>
+                <div class="voteitem"><a href="https://minecraft-server.net/vote/lushsurvival/" class="votelink" target="_blank"><p>Vote Site 2</p></a></div>
+                <span></span>
+                <div class="voteitem"><a href="https://www.planetminecraft.com/server/lush-survival/vote" class="votelink" target="_blank"><p>Vote Site 3</p></a></div>
+                <span></span>
+                <div class="voteitem"><a href="https://minecraft-server-list.com/server/472648/vote/" class="votelink" target="_blank"><p>Vote Site 4</p></a></div>
+                <span></span>
+                <div class="voteitem"><a href="https://best-minecraft-servers.co/server-lush-survival.147/vote" class="votelink" target="_blank"><p>Vote Site 5</p></a></div>
             </div>
         </div>
-    </div>
-    <div class="right">
-        <div class="video">
-            <video onloadstart="this.volume=0.05" autoplay muted loop id="video">
-                <source src="/img/bgVideo.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="extracontainer">
-            <div class="extraitem" id="nomargin"><a href="https://store.lushsurvival.net/" target="_blank" class="extralink" rel="noopener"><p>Store</p></a></div>
-            <div class="extraitem" id="silent"><a href="https://twitter.com/lushsurvival" target="_blank" class="extralink" rel="noopener"><p>Twitter</p></a></div>
-        </div>
-        <div class="reviewcontainer">
-            <h2>Reviews</h2>
-            <div class="reviewgrid">
-                <div class="reviewbox">
-                    <p id="username">Mino_Man</p>
-                    <div class="starbox">
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                    </div>
-                    <p id="date"><i>Feb. 27, 2021</i></p>
-                    <p id="review">Amazing server would recommend it has alot of resources just awesome.</p>
+     </div>
+     <div class="reviewsection" id="reviews">
+         <div class="container">
+                <div class="reviewheader">
+                    <h2>REVIEWS</h2>
+                    <a class="seemore" href="https://minecraft.buzz/server/1087&tab=vote"><p>See More</p></a>
                 </div>
-                <div class="reviewbox">
-                    <p id="username">oddham</p>
-                    <div class="starbox">
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
+                <div class="reviewgrid">
+                    <div class="reviewbox">
+                        <p id="username">Mino_Man</p>
+                        <div class="starbox">
+                            <img src="img/star.svg" id="star" alt="star icon"></img>
+                            <img src="img/star.svg" id="star" alt="star icon"></img>
+                            <img src="img/star.svg" id="star" alt="star icon"></img>
+                            <img src="img/star.svg" id="star" alt="star icon"></img>
+                            <img src="img/star.svg" id="star" alt="star icon"></img>
+                        </div>
+                        <p id="date"><i>Feb. 27, 2021</i></p>
+                        <p id="review">Amazing server would recommend it has alot of resources just awesome.</p>
                     </div>
-                    <p id="date"><i>Feb. 24, 2021</i></p>
-                    <p id="review">So far so good! Everyone in the server is super funny and caring, willing to help aswell.</p>
+                    <span></span>
+                    <div class="reviewbox">
+                        <p id="username">DreamyDucky18108</p>
+                        <div class="starbox">
+                            <img src="img/star.svg" id="star" alt="star icon"></img>
+                            <img src="img/star.svg" id="star" alt="star icon"></img>
+                            <img src="img/star.svg" id="star" alt="star icon"></img>
+                            <img src="img/star.svg" id="star" alt="star icon"></img>
+                            <img src="img/star.svg" id="star" alt="star icon"></img>
+                        </div>
+                        <p id="date"><i>Jan. 30, 2021</i></p>
+                        <p id="review">This is an amazing server that I recomend if you like survival, plot claiming, social, and trading!</p>
+                    </div>
+                    <span></span>
+                    <div class="reviewbox">
+                        <p id="username">JukeMVP</p>
+                        <div class="starbox">
+                            <img src="img/star.svg" id="star" alt="star icon"></img>
+                            <img src="img/star.svg" id="star" alt="star icon"></img>
+                            <img src="img/star.svg" id="star" alt="star icon"></img>
+                            <img src="img/star.svg" id="star" alt="star icon"></img>
+                            <img src="img/star.svg" id="star" alt="star icon"></img>
+                        </div>
+                        <p id="date"><i>Feb. 9, 2021</i></p>
+                        <p id="review">I love the server, it's new and very fun! Community is awesome and awesome shops!</p>
+                    </div>
                 </div>
-                <div class="reviewbox">
-                    <p id="username">mclachy2639</p>
-                    <div class="starbox">
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                    </div>
-                    <p id="date"><i>Feb. 23, 2021</i></p>
-                    <p id="review">Honestly my favourite server!</p>
-                </div>
-                <div class="reviewbox">
-                    <p id="username">Snowball_snod</p>
-                    <div class="starbox">
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                    </div>
-                    <p id="date"><i>Feb. 27, 2021</i></p>
-                    <p id="review">My new favorite server. My favorite things are the tree servers and the piglins AI working properl</p>
-                </div>
-                <div class="reviewbox">
-                    <p id="username">TheLameWitch</p>
-                    <div class="starbox">
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                    </div>
-                    <p id="date"><i>Mar. 10, 2021</i></p>
-                    <p id="review">It has a very friendly community, :)</p>
-                </div>
-                <div class="reviewbox">
-                    <p id="username">THEOX10</p>
-                    <div class="starbox">
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                    </div>
-                    <p id="date"><i>Mar. 11, 2021</i></p>
-                    <p id="review">NICE SERVER GOOD JOIN IT</p>
-                </div>
-                <div class="reviewbox">
-                    <p id="username">Mravity</p>
-                    <div class="starbox">
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                    </div>
-                    <p id="date"><i>Mar. 15, 2021</i></p>
-                    <p id="review">best server ive been on so far</p>
-                </div>
-                <div class="reviewbox">
-                    <p id="username">Andrewalon</p>
-                    <div class="starbox">
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                    </div>
-                    <p id="date"><i>Mar. 17, 2021</i></p>
-                    <p id="review">a very welcoming server</p>
-                </div>
-                <div class="reviewbox">
-                    <p id="username">MCShack</p>
-                    <div class="starbox">
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                    </div>
-                    <p id="date"><i>Feb. 20, 2021</i></p>
-                    <p id="review">literally the best survival server ever. not even kidding.</p>
-                </div>
-                <div class="reviewbox">
-                    <p id="username">JukeMVP</p>
-                    <div class="starbox">
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                    </div>
-                    <p id="date"><i>Feb. 9, 2021</i></p>
-                    <p id="review">I love the server, it's new and very fun! Community is awesome and awesome shops!</p>
-                </div>
-                <div class="reviewbox">
-                    <p id="username">Toshirostar</p>
-                    <div class="starbox">
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                    </div>
-                    <p id="date"><i>Feb. 3, 2021</i></p>
-                    <p id="review">Awesome server!</p>
-                </div>
-                <div class="reviewbox">
-                    <p id="username">luvving_</p>
-                    <div class="starbox">
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                    </div>
-                    <p id="date"><i>Mar. 20, 2021</i></p>
-                    <p id="review">wow. i like this server</p>
-                </div>
-                <div class="reviewbox">
-                    <p id="username">DreamyDucky18108</p>
-                    <div class="starbox">
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                    </div>
-                    <p id="date"><i>Jan. 30, 2021</i></p>
-                    <p id="review">This is an amazing server that I recomend if you like survival, plot claiming, social, and trading!</p>
-                </div>
-                <div class="reviewbox">
-                    <p id="username">Toshirostar</p>
-                    <div class="starbox">
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                    </div>
-                    <p id="date"><i>Feb. 3, 2021</i></p>
-                    <p id="review">Awesome server!</p>
-                </div>
-                <div class="reviewbox">
-                    <p id="username">Callaham</p>
-                    <div class="starbox">
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                    </div>
-                    <p id="date"><i>Feb. 9, 2021</i></p>
-                    <p id="review">cool server, I play it everyday and even bought an rank because I think server is fun</p>
-                </div>
-                <div class="reviewbox">
-                    <p id="username">OliverOMG11</p>
-                    <div class="starbox">
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                    </div>
-                    <p id="date"><i>Mar. 7, 2021</i></p>
-                    <p id="review">This is the best server ever!</p>
-                </div>
-                <div class="reviewbox">
-                    <p id="username">Fog</p>
-                    <div class="starbox">
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                    </div>
-                    <p id="date"><i>Feb. 12, 2021</i></p>
-                    <p id="review">This is the best server out of all servers</p>
-                </div>
-                <div class="reviewbox">
-                    <p id="username">Tqmidget</p>
-                    <div class="starbox">
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                        <img src="img/star.svg" id="star" alt="star icon"></img>
-                    </div>
-                    <p id="date"><i>Feb. 10, 2021</i></p>
-                    <p id="review">This is hands down the best server i've played, well done sir.</p>
+         </div>
+     </div>
+     <div class="ctasection">
+        <div class="container">
+            <div class="ctabox">
+                <p id="joinnow">Join Now!</p>
+                <p id="versions">Minecraft Java Versions 1.9 - 1.16</p>
+                <div class="buttoncontainer">
+                    <a href="copied.html" onclick="CopyToClipboard('ip');return true;" id="copylinktool"><h1 id="ip">play.lushsurvival.net</h1><span><p id="copyalert">Copy IP!</p></span></a>
                 </div>
             </div>
         </div>
-    </div>
+     </div>
+     <div class="footersection">
+        <div class="container">
+            <div class="footercontainer">
+            </div>
+            <p>Copyright © 2021 Lush Survival. All Rights Reserved</p>
+        </div>
+     </div>
 </body>
 </html>
