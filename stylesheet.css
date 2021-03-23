@@ -306,6 +306,7 @@ h3 {
     padding: 20px;
     border-radius: 10px;
     border-color: #68ad1f;
+    font-size: 2rem;
   }
   #ip:hover, #ip:focus, #ip:active {
     -webkit-transform: scale(1.1);
